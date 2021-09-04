@@ -1,0 +1,154 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-family: var(--font-sanz), sans-serif;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+header {
+  background: linear-gradient(0deg, rgba(214,229,251,1) 25%, rgba(8,202,248,1) 100%);
+  height: 15vh;
+}
+header nav{
+  padding-top: 20px;
+  align-content: center;
+}
+header ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+header li {
+  font-size: 3.2rem;
+  list-style: none;
+}
+header li a{
+  text-decoration: none;
+}
+
+main{
+  font-size: 1.6rem;
+  background-color: rgb(214,229,251);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
+.intro{
+  padding: 15px;
+}
+.intro h1{
+ font-size: 3.2rem;
+ padding: 5px;
+}
+.intro h2{
+  padding: 5px;
+}
+.intro p{
+  padding: 10px;
+}
+
+.skills {
+  padding:15px;
+}
+.skills h2{
+  padding: 10px;
+}
+.box-tech-skills{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center ;
+}
+.icon-tech-skills{
+  padding: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.icon-tech-skills h5{
+  text-align: center;
+}
+.icon-tech-skills svg {
+  height: 100px;
+}
+.box-soft-skills{
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.badge-soft-skills{
+  background-color: rgb(110, 240, 121);
+  border-radius: 10%;
+  font-weight:bold;
+  font-size: 2rem;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.languages ul {
+  padding: 10px;
+}
+.languages li{
+  width:fit-content;
+  display: flex;
+  background-color: rgb(229, 143, 143);
+  border-radius: 10%;
+  list-style: none;
+  margin: 5px;
+}
+.work-extracurriculars{
+  padding: 15px;
+}
+.work-exp h2{
+  padding: 10px;
+}
+.work-exp p{
+  padding: 10px;
+}
+.extra h2{
+  padding: 10px;
+}
+.extra section{
+  padding: 10px;
+}
+.extra section h3{
+  padding: 5px;
+}
+.extra section p{
+  padding: 5px;
+}
+.extra section li{
+  display: inline;
+  list-style: none;
+}
+.CV{
+  text-align: center;
+}
+
+footer{
+  background: linear-gradient(180deg, rgba(214,229,251,1) 25%, rgba(8,202,248,1) 100%);
+  height: 15vh;
+}
+footer nav{
+  padding-top: 30px;
+  align-content: center;
+}
+footer ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+footer li {
+  font-size: 2.5rem;
+  list-style: none;
+}
+footer li a{
+  text-decoration: none;
+}
